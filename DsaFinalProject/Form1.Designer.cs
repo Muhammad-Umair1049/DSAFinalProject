@@ -43,8 +43,10 @@ namespace DsaFinalProject
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -205,12 +207,24 @@ namespace DsaFinalProject
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(-1, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1043, 542);
             this.panel1.TabIndex = 49;
+            // 
+            // button1
+            // 
+            this.button1.AccessibleName = "btnLogin";
+            this.button1.Location = new System.Drawing.Point(807, 435);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 38);
+            this.button1.TabIndex = 51;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -222,15 +236,29 @@ namespace DsaFinalProject
             this.textBox1.Size = new System.Drawing.Size(238, 32);
             this.textBox1.TabIndex = 50;
             // 
-            // button1
+            // comboBox1
             // 
-            this.button1.AccessibleName = "btnLogin";
-            this.button1.Location = new System.Drawing.Point(807, 435);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 38);
-            this.button1.TabIndex = 51;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.comboBox1.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Customer",
+            "Rider"});
+            this.comboBox1.Location = new System.Drawing.Point(220, 255);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(165, 32);
+            this.comboBox1.TabIndex = 50;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Customer",
+            "Rider"});
+            this.comboBox2.Location = new System.Drawing.Point(265, 389);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(165, 32);
+            this.comboBox2.TabIndex = 50;
             // 
             // SignInForm
             // 
@@ -278,6 +306,8 @@ namespace DsaFinalProject
         private System.Windows.Forms.Panel panel1;
         private TextBox textBox1;
         private Button button1;
+        private ComboBox comboBox1;
+        private ComboBox comboBox2;
 
         #endregion
         //private System.Windows.Forms.Label label2;
