@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\Class1.cs" />
+    <Compile Include="DL\Class1.cs" />
     <Compile Include="Opening.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +62,7 @@
     <Compile Include="SignIN.Designer.cs">
       <DependentUpon>SignIN.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Class1.cs" />
     <EmbeddedResource Include="Opening.resx">
       <DependentUpon>Opening.cs</DependentUpon>
     </EmbeddedResource>
