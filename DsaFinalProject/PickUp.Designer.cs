@@ -121,7 +121,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::DsaFinalProject.Properties.Resources.dots;
-            this.pictureBox6.Location = new System.Drawing.Point(5, 74);
+            this.pictureBox6.Location = new System.Drawing.Point(5, 68);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(59, 48);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,7 +131,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::DsaFinalProject.Properties.Resources.destination;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 140);
+            this.pictureBox7.Location = new System.Drawing.Point(12, 131);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(45, 44);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
