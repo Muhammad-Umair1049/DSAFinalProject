@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="circle_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="destination" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\destination.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dots" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dots.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kumiko_shimizu_GfXyyrvGqzs_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kumiko-shimizu-GfXyyrvGqzs-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="milad_fakurian_UqP7U400AZs_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\milad-fakurian-UqP7U400AZs-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="steve_johnson_YS0YJLU_h2k_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\steve-johnson-YS0YJLU_h2k-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_665209" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\665209.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_665210" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\665210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_665212" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\665212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

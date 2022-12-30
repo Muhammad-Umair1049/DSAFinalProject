@@ -47,12 +47,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BL\Class1.cs" />
+    <Compile Include="BL\Class2.cs" />
+    <Compile Include="BL\Class3.cs" />
     <Compile Include="DL\Class1.cs" />
     <Compile Include="Opening.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Opening.Designer.cs">
       <DependentUpon>Opening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PickUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PickUp.Designer.cs">
+      <DependentUpon>PickUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +73,9 @@
     <Compile Include="UI\Class1.cs" />
     <EmbeddedResource Include="Opening.resx">
       <DependentUpon>Opening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PickUp.resx">
+      <DependentUpon>PickUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -163,6 +174,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\steve-johnson-YS0YJLU_h2k-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destination icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dots.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using DsaFinalProject.BL;
 
 namespace DsaFinalProject.DL
@@ -62,6 +63,7 @@ namespace DsaFinalProject.DL
                     if (record != " " && record != "" && record != "," && record != " , ")
                     {
                         username = getParse(record, 1);
+
                         password = getParse(record, 2);
                         userBL u = new userBL(username, password);
                         addUsersintoList(u);

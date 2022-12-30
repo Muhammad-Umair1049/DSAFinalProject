@@ -16,6 +16,17 @@ namespace DsaFinalProject.UI
                 MessageBox.Show("Invalid UserID or Password");
             }
         }
+        public static void OutputForAddedUser(userBL u)
+        {
+            if (u != null)
+            {
+                MessageBox.Show("New User added SuccessFully");
+            }
+            else
+            {
+                MessageBox.Show("Your password are not match.Try Again!!");
+            }
+        }
 
     }
 }
