@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DsaFinalProject.BL;
+using DsaFinalProject.UI;
 
 namespace DsaFinalProject
 {
@@ -37,6 +39,22 @@ namespace DsaFinalProject
             userDL.readUsersfromFile(PathForUsers);
         }
 
-      
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            userBL u = new userBL(textBox1.Text, textBox2.Text);
+            if (textBox2.Text == textBox3.Text)
+            {
+                userDL.addUsersintoList(u);
+                userUI.OutputForAddedUser(u);
+                userDL.storeUserinFile(u, PathForUsers);
+            }
+            else
+            {
+                u = null;
+                userUI.OutputForAddedUser(u);
+            }
+
+            
+        }
     }
 }
