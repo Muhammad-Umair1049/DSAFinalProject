@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DsaFinalProject.BL;
 
 namespace DsaFinalProject
 {
@@ -17,9 +18,11 @@ namespace DsaFinalProject
             InitializeComponent();
         }
 
-        private void PickUp_Load(object sender, EventArgs e)
+        private void PickUp_Load_2(object sender, EventArgs e)
         {
-            
+            graph g = new graph();
+           
+
         }
     }
 }

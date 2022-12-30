@@ -99,7 +99,7 @@
             this.cbDestination.FormattingEnabled = true;
             this.cbDestination.Location = new System.Drawing.Point(80, 133);
             this.cbDestination.Name = "cbDestination";
-            this.cbDestination.Size = new System.Drawing.Size(198, 31);
+            this.cbDestination.Size = new System.Drawing.Size(198, 24);
             this.cbDestination.TabIndex = 5;
             // 
             // PickUp
@@ -107,9 +107,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DsaFinalProject.Properties.Resources.kumiko_shimizu_GfXyyrvGqzs_unsplash;
-            this.ClientSize = new System.Drawing.Size(1042, 542);
+            this.ClientSize = new System.Drawing.Size(710, 346);
             this.Name = "PickUp";
             this.Text = "PickUp";
+            this.Load += new System.EventHandler(this.PickUp_Load_2);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }

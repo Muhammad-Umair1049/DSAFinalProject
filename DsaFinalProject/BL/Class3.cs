@@ -8,14 +8,21 @@ namespace DsaFinalProject.BL
 {
     internal class edgeInfo
     {
-        string edge;
-        int distance;
+        private string edge;
+        private int distance;
+
+        public edgeInfo()
+        {
+
+        }
 
         public edgeInfo(string edge, int distance)
         {
-            this.edge = edge;
-            this.distance = distance;
+            this.Edge = edge;
+            this.Distance = distance;
         }
 
+        public string Edge { get => edge; set => edge = value; }
+        public int Distance { get => distance; set => distance = value; }
     }
 }

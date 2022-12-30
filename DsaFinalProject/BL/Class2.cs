@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DsaFinalProject.BL
 {
@@ -19,15 +21,24 @@ namespace DsaFinalProject.BL
             adjList[d].Add(e);
         }
 
-       public void print()
+       public void print<K, V>()
        {
-                for (auto lst : adjList)
-                {
-                    cout << lst.first << "  ";
-                }
-       }
+            foreach (KeyValuePair<string, List<edgeInfo>> entry in adjList)
+            {
 
-        Dictionary<string, List<string>> getAdjlist()
+                List<edgeInfo> e = new List<edgeInfo>();
+                e = entry.Value;
+                for (int i = 0; i < e.Count; i++)
+                {
+                    
+
+                    
+                    
+                }
+            }
+        }
+
+        public Dictionary<string, List<edgeInfo>> getAdjlist()
         {
                 return adjList;
         }
