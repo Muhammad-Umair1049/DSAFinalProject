@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DsaFinalProject.DL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace DsaFinalProject
 {
     public partial class Opening : Form
     {
+        private string pathForUsers = "UsersInfo.txt";
+        public string PathForUsers { get => pathForUsers; set => pathForUsers = value; }
         public Opening()
         {
             InitializeComponent();
@@ -28,5 +31,12 @@ namespace DsaFinalProject
             //show signup form again
             this.Show();
         }
+
+        private void Opening_Load(object sender, EventArgs e)
+        {
+            userDL.readUsersfromFile(PathForUsers);
+        }
+
+      
     }
 }

@@ -254,6 +254,7 @@ namespace DsaFinalProject
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(160, 24);
             this.textBox3.TabIndex = 55;
+         
             // 
             // Opening
             // 
@@ -281,6 +282,7 @@ namespace DsaFinalProject
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Opening";
             this.Text = "Opening";
+            this.Load += new System.EventHandler(this.Opening_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
