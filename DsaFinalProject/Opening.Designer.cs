@@ -43,7 +43,6 @@ namespace DsaFinalProject
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnSignIn = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -216,16 +215,6 @@ namespace DsaFinalProject
             this.btnSignIn.UseVisualStyleBackColor = false;
             this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
             // 
-            // textBox3
-            // 
-            this.textBox3.AccessibleName = "tbPassword";
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(768, 395);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(238, 32);
-            this.textBox3.TabIndex = 55;
-            // 
             // label2
             // 
             this.label2.AccessibleName = "";
@@ -247,7 +236,6 @@ namespace DsaFinalProject
             this.BackgroundImage = global::DsaFinalProject.Properties.Resources.milad_fakurian_UqP7U400AZs_unsplash;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1042, 541);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.label7);
@@ -286,7 +274,6 @@ namespace DsaFinalProject
         private Label label1;
         private Label label7;
         private Button btnSignIn;
-        private TextBox textBox3;
         private Label label2;
 
         #endregion
