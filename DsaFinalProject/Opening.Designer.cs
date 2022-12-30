@@ -58,10 +58,9 @@ namespace DsaFinalProject
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Book Antiqua", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label5.Location = new System.Drawing.Point(452, 27);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(678, 42);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(206, 32);
+            this.label5.Size = new System.Drawing.Size(300, 49);
             this.label5.TabIndex = 38;
             this.label5.Text = "Create Account";
             // 
@@ -73,10 +72,9 @@ namespace DsaFinalProject
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(431, 213);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(588, 327);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 16);
+            this.label3.Size = new System.Drawing.Size(114, 22);
             this.label3.TabIndex = 36;
             this.label3.Text = "PASSWORD";
             // 
@@ -87,10 +85,9 @@ namespace DsaFinalProject
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Book Antiqua", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(448, 122);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(672, 188);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(220, 18);
+            this.label4.Size = new System.Drawing.Size(306, 24);
             this.label4.TabIndex = 46;
             this.label4.Text = "or use your name for registration\r\n";
             // 
@@ -99,10 +96,9 @@ namespace DsaFinalProject
             this.textBox2.AccessibleName = "tbPassword";
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(512, 206);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Location = new System.Drawing.Point(768, 319);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(160, 24);
+            this.textBox2.Size = new System.Drawing.Size(238, 32);
             this.textBox2.TabIndex = 47;
             // 
             // label6
@@ -113,10 +109,9 @@ namespace DsaFinalProject
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(432, 163);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(610, 256);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 16);
+            this.label6.Size = new System.Drawing.Size(67, 22);
             this.label6.TabIndex = 48;
             this.label6.Text = "NAME";
             // 
@@ -125,10 +120,9 @@ namespace DsaFinalProject
             this.textBox1.AccessibleName = "tbName";
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(512, 160);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(768, 246);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(160, 24);
+            this.textBox1.Size = new System.Drawing.Size(238, 32);
             this.textBox1.TabIndex = 49;
             // 
             // btnSignUp
@@ -139,10 +133,9 @@ namespace DsaFinalProject
             this.btnSignUp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSignUp.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.Color.White;
-            this.btnSignUp.Location = new System.Drawing.Point(512, 313);
-            this.btnSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSignUp.Location = new System.Drawing.Point(768, 482);
             this.btnSignUp.Name = "btnSignUp";
-            this.btnSignUp.Size = new System.Drawing.Size(90, 31);
+            this.btnSignUp.Size = new System.Drawing.Size(135, 48);
             this.btnSignUp.TabIndex = 50;
             this.btnSignUp.Text = "SIGN UP";
             this.btnSignUp.UseVisualStyleBackColor = false;
@@ -152,10 +145,9 @@ namespace DsaFinalProject
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::DsaFinalProject.Properties.Resources._665212;
-            this.pictureBox3.Location = new System.Drawing.Point(586, 69);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(879, 106);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(33, 45);
+            this.pictureBox3.Size = new System.Drawing.Size(50, 69);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 45;
             this.pictureBox3.TabStop = false;
@@ -165,10 +157,9 @@ namespace DsaFinalProject
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::DsaFinalProject.Properties.Resources._665210;
-            this.pictureBox2.Location = new System.Drawing.Point(533, 69);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(800, 106);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(33, 45);
+            this.pictureBox2.Size = new System.Drawing.Size(50, 69);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 44;
             this.pictureBox2.TabStop = false;
@@ -178,10 +169,9 @@ namespace DsaFinalProject
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::DsaFinalProject.Properties.Resources._665209;
-            this.pictureBox1.Location = new System.Drawing.Point(481, 69);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(722, 106);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 45);
+            this.pictureBox1.Size = new System.Drawing.Size(50, 69);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 43;
             this.pictureBox1.TabStop = false;
@@ -192,10 +182,9 @@ namespace DsaFinalProject
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Book Antiqua", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label1.Location = new System.Drawing.Point(55, 92);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(82, 142);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 32);
+            this.label1.Size = new System.Drawing.Size(311, 49);
             this.label1.TabIndex = 51;
             this.label1.Text = "Welcome Back !";
             // 
@@ -205,10 +194,9 @@ namespace DsaFinalProject
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Book Antiqua", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(17, 140);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(26, 215);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(296, 36);
+            this.label7.Size = new System.Drawing.Size(418, 48);
             this.label7.TabIndex = 52;
             this.label7.Text = "To keep connected with us please signin with\r\n                      your personal" +
     " info\r\n";
@@ -220,10 +208,9 @@ namespace DsaFinalProject
             this.btnSignIn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSignIn.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignIn.ForeColor = System.Drawing.Color.White;
-            this.btnSignIn.Location = new System.Drawing.Point(106, 201);
-            this.btnSignIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSignIn.Location = new System.Drawing.Point(159, 309);
             this.btnSignIn.Name = "btnSignIn";
-            this.btnSignIn.Size = new System.Drawing.Size(90, 31);
+            this.btnSignIn.Size = new System.Drawing.Size(135, 48);
             this.btnSignIn.TabIndex = 53;
             this.btnSignIn.Text = "SIGN IN";
             this.btnSignIn.UseVisualStyleBackColor = false;
@@ -237,32 +224,30 @@ namespace DsaFinalProject
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(431, 263);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(550, 397);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 16);
+            this.label2.Size = new System.Drawing.Size(193, 22);
             this.label2.TabIndex = 54;
-            this.label2.Text = "PASSWORD";
+            this.label2.Text = "RETYPE PASSWORD";
             // 
             // textBox3
             // 
             this.textBox3.AccessibleName = "tbName";
             this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox3.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(516, 255);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox3.Location = new System.Drawing.Point(768, 392);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(160, 24);
+            this.textBox3.Size = new System.Drawing.Size(238, 32);
             this.textBox3.TabIndex = 55;
          
             // 
             // Opening
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DsaFinalProject.Properties.Resources.milad_fakurian_UqP7U400AZs_unsplash;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(695, 352);
+            this.ClientSize = new System.Drawing.Size(1042, 542);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSignIn);
@@ -279,7 +264,6 @@ namespace DsaFinalProject
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Opening";
             this.Text = "Opening";
             this.Load += new System.EventHandler(this.Opening_Load);
