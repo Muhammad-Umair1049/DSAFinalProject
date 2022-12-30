@@ -58,6 +58,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\PickUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\PickUp.Designer.cs">
+      <DependentUpon>PickUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\PickUp.resx">
+      <DependentUpon>PickUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignIN.resx">
       <DependentUpon>SignIN.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,12 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\238910.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1051335.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3669678.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\facebook-social-logo_318-9225.jpg" />
