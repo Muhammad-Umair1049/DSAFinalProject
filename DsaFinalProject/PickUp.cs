@@ -16,5 +16,10 @@ namespace DsaFinalProject
         {
             InitializeComponent();
         }
+
+        private void PickUp_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
