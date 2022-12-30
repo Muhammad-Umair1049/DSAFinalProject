@@ -90,7 +90,7 @@
             this.cbCurrentLocation.FormattingEnabled = true;
             this.cbCurrentLocation.Location = new System.Drawing.Point(80, 24);
             this.cbCurrentLocation.Name = "cbCurrentLocation";
-            this.cbCurrentLocation.Size = new System.Drawing.Size(198, 31);
+            this.cbCurrentLocation.Size = new System.Drawing.Size(198, 24);
             this.cbCurrentLocation.TabIndex = 4;
             // 
             // cbDestination
