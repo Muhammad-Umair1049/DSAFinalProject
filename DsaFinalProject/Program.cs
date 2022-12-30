@@ -16,7 +16,7 @@ namespace DsaFinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Opening());
+            Application.Run(new PickUp());
         }
     }
 }
