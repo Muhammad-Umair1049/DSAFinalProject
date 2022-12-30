@@ -113,9 +113,9 @@ namespace DsaFinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap destination_icon {
+        internal static System.Drawing.Bitmap dots {
             get {
-                object obj = ResourceManager.GetObject("destination_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("dots", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
