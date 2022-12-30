@@ -93,6 +93,16 @@ namespace DsaFinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap destination_icon {
+            get {
+                object obj = ResourceManager.GetObject("destination_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kumiko_shimizu_GfXyyrvGqzs_unsplash {
             get {
                 object obj = ResourceManager.GetObject("kumiko_shimizu_GfXyyrvGqzs_unsplash", resourceCulture);
