@@ -50,6 +50,12 @@
     <Compile Include="BL\Class2.cs" />
     <Compile Include="BL\Class3.cs" />
     <Compile Include="DL\Class1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Opening.cs">
       <SubType>Form</SubType>
     </Compile>
