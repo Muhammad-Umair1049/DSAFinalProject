@@ -93,9 +93,9 @@ namespace DsaFinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap darryl_boediarto_Zrw1BhvXJrc_unsplash {
+        internal static System.Drawing.Bitmap kumiko_shimizu_GfXyyrvGqzs_unsplash {
             get {
-                object obj = ResourceManager.GetObject("darryl_boediarto_Zrw1BhvXJrc_unsplash", resourceCulture);
+                object obj = ResourceManager.GetObject("kumiko_shimizu_GfXyyrvGqzs_unsplash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace DsaFinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap jeremy_bishop_KrHNUF7rd3U_unsplash {
+        internal static System.Drawing.Bitmap milad_fakurian_UqP7U400AZs_unsplash {
             get {
-                object obj = ResourceManager.GetObject("jeremy_bishop_KrHNUF7rd3U_unsplash", resourceCulture);
+                object obj = ResourceManager.GetObject("milad_fakurian_UqP7U400AZs_unsplash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,29 +113,9 @@ namespace DsaFinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap man_searching_car_rent_74855_7610 {
+        internal static System.Drawing.Bitmap steve_johnson_YS0YJLU_h2k_unsplash {
             get {
-                object obj = ResourceManager.GetObject("man_searching_car_rent_74855_7610", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap person_ordering_cab_airport_online_74855_15496 {
-            get {
-                object obj = ResourceManager.GetObject("person_ordering_cab_airport_online_74855_15496", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2022_12_18_at_14_42_10_log_in_page_template_at_DuckDuckGo {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot_2022_12_18_at_14_42_10_log_in_page_template_at_DuckDuckGo", resourceCulture);
+                object obj = ResourceManager.GetObject("steve_johnson_YS0YJLU_h2k_unsplash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
